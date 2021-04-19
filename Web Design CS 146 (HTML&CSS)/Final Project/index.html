@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Matching Game - Homepage</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class="linkhead">
+            <ul>
+                <strong>
+                    <li><a href="game.html"> Game</a></li>
+                    <li><a href="about.html"> About The Game</a></li>
+                </strong>
+            </ul>
+        </nav>
+            <h1>Welcome To The Matching Game</h1>
+        <div>
+            <h2>Made by:</h2> 
+            <h3>Leonel Trubbo, Giovanni Savatta, Maxwell Metzner, and Tristan Kensinger</h3>
+        </div>    
+        <br>
+        <div>
+            <h3>Want to leave a comment?</h3>
+            <div class="container">
+                <section class="input">
+                   <form id="postForm">
+                      <input
+                         type="text"
+                         name="username"
+                         id="formUsername"
+                         placeholder="Tell us your name!"
+                         required
+                      />
+                      <input
+                         type="text"
+                         name="comment"
+                         id="formmessage"
+                         placeholder="Enter your comment!"
+                         required
+                      />
+                      <button>Submit Post!</button>
+                   </form>
+                   <br>
+                </section>
+                <section id="postList"></section>
+            </div>      
+        </form>
+    </body>
+    <script src="form.js"></script>
+</html>
