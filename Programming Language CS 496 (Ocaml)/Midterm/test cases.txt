@@ -1,0 +1,17 @@
+Emptytable: Creates an empty hash table
+interp "emptytable";;
+
+Insert: Adds a key-value pair into the hash table.
+interp "insert(0, 1234, insert(1, 5678, insert(2,9101, insert(3, 1121, emptytable))))";;
+
+Lookup: Given a key, retrieve the value associated with the key in the hash table
+interp "lookup(2, insert(0, 1234, insert(1, 5678, insert(2,9101, insert(3, 1121, emptytable)))))";;
+
+Remove: Given a key, remove the key-value pair from the hash table and display the new hash-table.
+interp "remove(2, insert(0, 1234, insert(1, 5678, insert(2,9101, insert(3, 1121, emptytable)))))";;
+
+Size: Returns the amount of elements in the hash table.
+interp "size(remove(2, insert(0, 1234, insert(1, 5678, insert(2,9101, insert(3, 1121, emptytable))))))";;
+
+Empty: Returns a boolean indicating whether the hash table is populated or not.
+interp "empty?(remove(2, insert(0, 1234, insert(1, 5678, insert(2,9101, insert(3, 1121, emptytable))))))";;
