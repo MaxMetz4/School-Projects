@@ -1,0 +1,25 @@
+class c1 extends object {
+ field x
+ field y
+ method initialize () {
+  begin
+   set x = 11;
+   set y = 12
+end }
+method m1 () { x +y }
+method m2 () {  send self m3() }
+}
+
+class c2 extends c1 {
+ field y
+ method initialize () {
+  begin
+   super initialize();
+   set y = 22
+end }
+method m1 (u,v) {  x + y -v }
+method m3 () { 7}
+}
+
+let o3 = new c2()
+in send o3 m1(7,8)
