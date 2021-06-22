@@ -1,6 +1,7 @@
  Coding assignments given at Stevens Institute of Technology between 2019-Present
  
-Inviting someone to private repository: (For my own reference)
+FOR MY OWN REFERENCE 
+Inviting someone to private repository:
 Ask for the username of the person you're inviting as a collaborator.
 On GitHub, navigate to the main page of the repository.
 Under your repository name, click Settings.
