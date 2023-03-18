@@ -2,4 +2,4 @@
 * text=auto
 
 # linguist vendor the path ./'Programming Language CS 496 (Ocaml)'/'Notes & Stub'/*
-./'Programming Language CS 496 (Ocaml)'/'Notes & Stub'/* linguist-vendored
+./Programming\ Language\ CS\ 496\ \(Ocaml\)/Notes\ &\ Stub/* linguist-vendored
